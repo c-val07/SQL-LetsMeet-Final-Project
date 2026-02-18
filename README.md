@@ -1,9 +1,12 @@
-Social Network Data Analysis
-Project Overview
+# Social Network Data Analysis
+
+## Project Overview
 
 This project analyzes large-scale social network datasets (1M+ rows per table) using SQL to answer key questions about user engagement, friend activity, and messaging behavior. The analysis demonstrates advanced querying techniques including joins, aggregations, filtering, and subqueries to extract meaningful insights from relational databases.
 
-Project Objectives
+---
+
+## Project Objectives
 
 Identify the user with the highest number of friends in the network.
 
@@ -15,7 +18,9 @@ Analyze messaging activity, including keyword frequency in messages.
 
 Detect users with more than 10 unread messages to evaluate engagement and responsiveness.
 
-Methodology
+---
+
+## Methodology
 
 User and Friend Request Analysis
 
@@ -45,7 +50,9 @@ Validation and Accuracy
 
 Checked query results for logical consistency and ensured metrics matched expected patterns in large datasets (1M+ rows).
 
-Key Findings
+---
+
+## Key Findings
 
 Most Connected User: Identified the user with the highest friend count, providing insights into the platform’s most connected members.
 
@@ -57,7 +64,9 @@ Messaging Behavior: Counted all messages containing the phrase "Miss you", provi
 
 Unread Messages: Identified users with more than 10 unread messages, pinpointing potential areas for engagement improvement or system notifications.
 
-Dataset Description
+---
+
+## Dataset Description
 
 The project uses three relational tables:
 
@@ -69,7 +78,9 @@ messages – message logs between users
 
 Each table contains 1M+ rows, simulating real-world large-scale social network data.
 
-Analysis Questions
+---
+
+## Analysis Questions
 1. User with the Most Friends
 
 Identified the email and friend count of the most connected user using a subquery with MAX(friend_count).
@@ -92,7 +103,9 @@ Counted messages containing the phrase “Miss you” using case-insensitive fil
 
 Identified users with more than 10 unread messages using grouping and HAVING.
 
-Key Insights Demonstrated
+---
+
+## Key Insights Demonstrated
 
 Ability to analyze large datasets efficiently with SQL
 
@@ -102,7 +115,9 @@ Understanding of user engagement metrics
 
 Ability to calculate behavioral trends and platform KPIs
 
-Skills Demonstrated
+---
+
+## Skills Demonstrated
 
 SQL Querying: Writing complex queries using SELECT, JOIN, GROUP BY, HAVING, and subqueries.
 
@@ -118,7 +133,9 @@ Behavioral & Engagement Metrics: Measuring user activity, friend request accepta
 
 Data Cleaning Awareness: Handling null values and identifying data inconsistencies to ensure query accuracy.
 
-Tools Used
+---
+
+## Tools Used
 
 SQLite
 
