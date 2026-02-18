@@ -68,15 +68,6 @@ Each table contains 1M+ rows, simulating real-world large-scale social network d
 
 ---
 
-## Key Insights Demonstrated
-
-* Ability to analyze large datasets efficiently with SQL
-* Experience working with relational joins and aggregations
-* Understanding of user engagement metrics
-* Ability to calculate behavioral trends and platform KPIs
-
----
-
 ## Skills Demonstrated
 
 * SQL Querying: Writing complex queries using SELECT, JOIN, GROUP BY, HAVING, and subqueries.
