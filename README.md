@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project analyzes large-scale social network datasets (1M+ rows per table) using SQL to answer key questions about user engagement, friend activity, and messaging behavior. The analysis demonstrates advanced querying techniques including joins, aggregations, filtering, and subqueries to extract meaningful insights from relational databases.
+This project analyzes a large-scale social network dataset (1M+ rows per table), from a company known as LetsMeet, by using SQL to answer key questions about user engagement, friend activity, and messaging behavior. The analysis demonstrates advanced querying techniques including joins, aggregations, filtering, and subqueries to extract meaningful insights from relational databases.
 
 ---
 
